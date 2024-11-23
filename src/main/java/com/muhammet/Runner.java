@@ -1,6 +1,7 @@
 package com.muhammet;
 
 import com.muhammet.entity.Personel;
+import com.muhammet.entity.Unvanlar;
 
 public class Runner {
     public static void main(String[] args) {
@@ -27,13 +28,13 @@ public class Runner {
 
 
         Personel personel = new Personel("Murat", "Ankara","0 888 999 7755",
-                "murat@gmail.com","Müdür", 2);
+                "murat@gmail.com", Unvanlar.MUDUR, 2);
         Personel personel2 = new Personel("Bahar","Ankara","0 666 999 7455"
-                ,"bahar@gmail.com","müdür",2);
+                ,"bahar@gmail.com",Unvanlar.MUDUR,2);
         Personel personel3 = new Personel("Hakkı","Ankara","0 332 222 4532"
-                ,"hakki@gmail.com","Müd.",21);
+                ,"hakki@gmail.com",Unvanlar.MUDUR,21);
         Personel personel4 = new Personel("Fatih","Ankara","0 658 222 3244"
-                ,"fatih@gmail.com","MÜDÜR",23);
+                ,"fatih@gmail.com",Unvanlar.MUHENDIS,23);
 
 
 
